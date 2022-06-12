@@ -13,7 +13,7 @@ st.sidebar.markdown("💸 Loan Page")
 
 
 trained_model = pickle.load(open(
-    'C:/Users/Ayo/Downloads/trained_model_Loan_Pred.pkl', 'rb'))
+    'trained_model_Loan_Pred.pkl', 'rb'))
 
 
 def app():
