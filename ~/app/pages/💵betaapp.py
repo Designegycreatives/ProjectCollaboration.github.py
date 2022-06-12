@@ -9,6 +9,16 @@ st.sidebar.markdown("💵 Beta Page")
 trained_model = pickle.load(open(
     'trained_model_Loan_Pred.pkl', 'rb'))
 
+# Image For Page
+file_ = open("image1.jpg", "rb")
+contents = file_.read()
+data_url = base64.b64encode(contents).decode("utf-8")
+file_.close()
+
+st.markdown(
+    f'<img src="data:image/gif;base64,{data_url}" alt="dashboard gif">',
+    unsafe_allow_html=True)
+
 
 # creating function to make prediction
 try:
