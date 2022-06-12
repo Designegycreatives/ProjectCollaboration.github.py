@@ -79,7 +79,7 @@ if submit:
 # else:
 #     return 'The Customer will default'
 
-defaultcheck = Makeprediction([[Current_Loan_Amount, Credit_score, Annual_Income, Monthly_Debt,
+    defaultcheck = Makeprediction([[Current_Loan_Amount, Credit_score, Annual_Income, Monthly_Debt,
                                 Years_of_Credit_History, Number_of_Open_Accounts,
                                 Number_of_Credit_Problems, Current_Credit_Balance,
                                 Maximum_Open_Credit]])
