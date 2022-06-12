@@ -1,4 +1,6 @@
 import streamlit as st
 
-st.header(" Loan Prediction App")
+
+
+st.header("Loan Prediction App ")
 st.sidebar.markdown("💵 Beta Page")
