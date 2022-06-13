@@ -58,10 +58,10 @@ try:
                                              Years_of_Credit_History, Number_of_Open_Accounts,
                                              Number_of_Credit_Problems, Current_Credit_Balance,
                                              Maximum_Open_Credit]])
-   st.success(default_check)
+  
 except:
     pass
-   
+st.success(default_check)  
 
 
 # if __name__ == '__app__':
