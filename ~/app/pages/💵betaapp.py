@@ -20,6 +20,8 @@ st.markdown(
     f'<img src="data:image/gif;base64,{data_url}" alt="dashboard gif">',
     unsafe_allow_html=True)
 
+st.sidebar.image("image.gif", use_column_width=True)
+
 
 # creating function to make prediction
 def generateprediction(data):
