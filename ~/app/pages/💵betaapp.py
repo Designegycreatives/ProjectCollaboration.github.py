@@ -43,7 +43,7 @@ try:
    Annual_Income = st.text_input('Annual Income')
    Years_of_Credit_History = st.text_input(
         'Years of credit history')
-   Number_of_Credit_Problems = st.text_input('Number Of Credi Problems')
+   Number_of_Credit_Problems = st.text_input('Number Of Credit Problems')
    Monthly_Debt = st.text_input('Monthly Debt')
    Maximum_Open_Credit = st.text_input('Maximum Open Credit')
    Number_of_Open_Accounts = st.text_input('Number Of Open Accounts')
