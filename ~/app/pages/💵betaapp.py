@@ -22,22 +22,22 @@ st.markdown(
 
 
 # creating function to make prediction
-try:
-   def generateprediction(data):
+def generateprediction(data):
 
-        makeprediction = trained_model.predict(data)
-        print(makeprediction)
+   makeprediction = trained_model.predict(data)
+   print(makeprediction)
 
-        if (makeprediction[0] == 'Fully Paid'):
-           return 'The Customer will not default'
-        else:
-           return 'The Customer will default'
+   if (makeprediction[0] == 'Fully Paid'):
+       return 'The Customer will not default'
+   else:
+       return 'The Customer will default'
 
 # Creating a function for main app interface
 
 # input data
 
 # forms = st.form("forms", clear_on_submit=True)
+try:
    Current_Loan_Amount = st.text_input('Current Loan Amount')
    Credit_score = st.text_input('Credit Score')
    Annual_Income = st.text_input('Annual Income')
